@@ -1,10 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
+
+type propsTurnOnOffType = {
+    turnOn:boolean
+    callback:(turnOn:boolean)=>void
+
+}
+
+export function TurnOnOff(props:propsTurnOnOffType) {
 
 
-
-export function TurnOnOff() {
-
-    const [on, setOn] = useState<boolean>(false)
 
 
     const onStyle = {
@@ -13,7 +17,7 @@ export function TurnOnOff() {
         border: '1px solid black',
         display: 'inline-block',
         padding: '2px',
-        background: on ? 'green' : 'white'
+        background: props.turnOn ? 'green' : 'white'
     };
     const offStyle = {
         width: '30px',
@@ -22,7 +26,7 @@ export function TurnOnOff() {
         display: 'inline-block',
         padding: '2px',
         marginLeft: '2px',
-        background: on ? 'white' : 'red'
+        background: props.turnOn ? 'white' : 'red'
     };
     const indicatorStyle = {
         width: '10px',
@@ -32,7 +36,7 @@ export function TurnOnOff() {
         display: 'inline-block',
         padding: '2px',
         marginLeft: '5px',
-        background: on ? 'green' : 'red'
+        background: props.turnOn ? 'green' : 'red'
     };
 
 
@@ -40,8 +44,8 @@ export function TurnOnOff() {
         <div>
 
             <div>
-                <div style={onStyle} onClick={() => setOn(true)}>on</div>
-                <div style={offStyle} onClick={() => setOn(false)}> off</div>
+                <div style={onStyle} onClick={() => props.callback(!props.turnOn)}>on</div>
+                <div style={offStyle} onClick={() => props.callback(!props.turnOn)}> off</div>
                 <div style={indicatorStyle}></div>
             </div>
 

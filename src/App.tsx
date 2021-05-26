@@ -6,7 +6,7 @@ import {Rating, RatingValueType} from './components/Rating/Rating';
 import {Accordion} from './components/Accordion/Accordion';
 import { UncontrolledTurnOnOff } from './components/UncontrolledTurnOnOff/UncontrolledTurnOnOff';
 import { UncontrolledAccordion } from './components/UncontrolledAccordion/UncontrolledAccordion';
-import { UncontrolledRating } from './components/Uncontrolledrating/UncontrolledRating';
+import { UncontrolledRating } from './components/UncontrolledRating/UncontrolledRating';
 import {TurnOnOff} from './components/TurnOnOff/TurnOnOff';
 
 
@@ -32,11 +32,10 @@ let [turnOn, setTurnOn] = useState<boolean>(false)
             <Rating value = {ratingValue} onClick={setRatingValue}/>
             <UncontrolledRating />
 
-            <TurnOnOff/>
-            <UncontrolledTurnOnOff
-            turnOn={turnOn}
-            callback={setTurnOn}
-            />
+            <TurnOnOff
+                turnOn={turnOn}
+                callback={setTurnOn}/>
+            <UncontrolledTurnOnOff/>
 
 
         </div>
