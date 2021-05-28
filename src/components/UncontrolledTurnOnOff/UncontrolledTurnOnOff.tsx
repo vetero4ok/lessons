@@ -1,10 +1,14 @@
 import React, {useState} from 'react';
 
+export type propsUncontrolledTurnOnOffType = {
+    onChange?:(on:boolean)=>void
+    defaultValue?:boolean
+}
 
 
-export function UncontrolledTurnOnOff() {
+export function UncontrolledTurnOnOff(props:propsUncontrolledTurnOnOffType) {
 
-    const [on, setOn] = useState<boolean>(false)
+    const [on, setOn] = useState<boolean>(props.defaultValue ? props.defaultValue : false )
 
 
     const onStyle = {

@@ -35,7 +35,7 @@ let [turnOn, setTurnOn] = useState<boolean>(false)
             <TurnOnOff
                 turnOn={turnOn}
                 callback={setTurnOn}/>
-            <UncontrolledTurnOnOff/>
+            <UncontrolledTurnOnOff  />
 
 
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-type propsTurnOnOffType = {
+export type propsTurnOnOffType = {
     turnOn:boolean
     callback:(turnOn:boolean)=>void
 
