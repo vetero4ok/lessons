@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledTurnOnOff/UncontorolledTurnOnOff.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TurnOnOff/TurnOnOff.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TurnOnOff/TurnOnOff.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TurnOnOff/TurnOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TurnOnOff/TurnOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledTurnOnOff/UncontrolledTurnOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledTurnOnOff/UncontrolledTurnOnOff.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +43,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UncontrolledRating" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledRating" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledTurnOnOff" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledAccordion" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\Accordion" />
-      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\TurnOnOff" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,8 +100,17 @@
       <workItem from="1621952730019" duration="858000" />
       <workItem from="1622118105091" duration="6982000" />
       <workItem from="1622131195923" duration="70000" />
-      <workItem from="1622187609380" duration="8084000" />
+      <workItem from="1622187609380" duration="8385000" />
+      <workItem from="1622446250343" duration="7405000" />
     </task>
+    <task id="LOCAL-00001" summary="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx">
+      <created>1622196535920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622196535920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx" />
   </component>
 </project>
