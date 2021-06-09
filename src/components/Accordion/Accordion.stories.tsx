@@ -9,28 +9,33 @@ export default {
     component: Accordion,
 } as Meta;
 const callback = action('accordion mode change event fired')
+const callback1 = action('CLicked')
 const Template: Story<AccordionPropsType> = (args) =><Accordion{...args}/>
 const callbacksProps = {
-    onClick:callback
+    onClick:callback,
+    onClicked:callback1
 }
 export const menuCollapsedMode = Template.bind({})
 menuCollapsedMode.args = {
     ...callbacksProps,
     titleValue:'Menu',
     collapsed:true,
+    items:[{title:"ivan",value:'1'},{title:"petro",value:'2'},{title:"stepan",value:'3'}],
+
 
 }
-export const userCollapsedMode = Template.bind({})
-menuCollapsedMode.args = {
-    ...callbacksProps,
-    titleValue:'user',
-    collapsed:false,
+// export const userCollapsedMode = Template.bind({})
+// menuCollapsedMode.args = {
+//     ...callbacksProps,
+//     titleValue:'user',
+//     collapsed:false,
+//     items: [{title:"ivan",value:'1'},{title:"petro",value:'2'},{title:"stepan",value:'3'}]
+//
+// }
 
-}
 
-
-export const ModeChanging = () => {
-    let [accordionCollapsed, setAccordionCollapsed] =  useState<boolean>(false)
-    return <Accordion titleValue={'Menu'} collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
-}
+// export const ModeChanging = () => {
+//     let [accordionCollapsed, setAccordionCollapsed] =  useState<boolean>(false)
+//     return <Accordion titleValue={'Menu'} collapsed={accordionCollapsed} onClick={setAccordionCollapsed}/>
+// }
 
