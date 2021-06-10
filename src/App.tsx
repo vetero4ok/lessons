@@ -17,6 +17,7 @@ function App() {
     let [turnOn, setTurnOn] = useState<boolean>(false)
     const onChange = () => {
     }
+    const onClicked=()=>{}
     const mas = [{title: 'ivan', value: '1'}, {title: 'petro', value: '2'}, {title: 'stepan', value: '3'}]
     return (
 
@@ -28,9 +29,10 @@ function App() {
             <Accordion titleValue={'User'}
                        collapsed={accordionCollapsed}
                        onClick={setAccordionCollapsed}
-                       onClicked={onChange}
+                       onClicked={onClicked}
                        items={mas}
             />
+
             {/*< UncontrolledAccordion titleValue = {"Toggle menu"}/>*/}
 
             {/*<Rating value = {ratingValue} onClick={setRatingValue}/>*/}

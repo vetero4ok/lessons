@@ -7,9 +7,10 @@ import { Accordion, AccordionPropsType } from './Accordion';
 export default {
     title: 'Accordion ',
     component: Accordion,
+
 } as Meta;
 const callback = action('accordion mode change event fired')
-const callback1 = action('CLicked')
+const callback1 = action('CLicked on items li')
 const Template: Story<AccordionPropsType> = (args) =><Accordion{...args}/>
 const callbacksProps = {
     onClick:callback,
@@ -24,14 +25,14 @@ menuCollapsedMode.args = {
 
 
 }
-// export const userCollapsedMode = Template.bind({})
-// menuCollapsedMode.args = {
-//     ...callbacksProps,
-//     titleValue:'user',
-//     collapsed:false,
-//     items: [{title:"ivan",value:'1'},{title:"petro",value:'2'},{title:"stepan",value:'3'}]
-//
-// }
+export const userCollapsedMode = Template.bind({})
+menuCollapsedMode.args = {
+    ...callbacksProps,
+    titleValue:'user',
+    collapsed:false,
+    items: [{title:"ivan",value:'1'},{title:"petro",value:'2'},{title:"stepan",value:'3'}]
+
+}
 
 
 // export const ModeChanging = () => {

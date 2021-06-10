@@ -46,7 +46,8 @@ export type AccordionBodyType = {
 }
 
     function AccordionBody(props:AccordionBodyType) {
-const jsxElements = props.items.map((li,index)=> <li onClick={()=>{onClicked(li.value)}} key={index}>{li.title}</li>)
+const jsxElements = props.items.map((li,index)=>
+    <li onClick={()=>{props.onClicked(li.value)}} key={index}>{li.title}</li>)
 
 
         return (
