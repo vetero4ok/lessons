@@ -8,6 +8,7 @@ import {UncontrolledTurnOnOff} from './components/UncontrolledTurnOnOff/Uncontro
 import {UncontrolledAccordion} from './components/UncontrolledAccordion/UncontrolledAccordion';
 import {UncontrolledRating} from './components/UncontrolledRating/UncontrolledRating';
 import {TurnOnOff} from './components/TurnOnOff/TurnOnOff';
+import {Select} from './components/Select/Select';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                        onClicked={onClicked}
                        items={mas}
             />
+            {/*<Select/>*/}
 
             {/*< UncontrolledAccordion titleValue = {"Toggle menu"}/>*/}
 

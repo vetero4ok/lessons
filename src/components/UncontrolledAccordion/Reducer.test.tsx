@@ -1,4 +1,4 @@
-import {reducer, StateType, TOGGLE_COLLAPSED} from './Reducer';
+ import {reducer, StateType, TOGGLE_COLLAPSED} from './Reducer';
 
 test ('Collapsed should be true',()=>{
     //data
