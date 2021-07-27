@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="UseEffectDemo.stories.tsx">
-      <change afterPath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/Asets/clock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/SwitchDigitalAnalogClock.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/myStory/DigitalClock.stories.tsx" afterDir="false" />
+    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="SetInterval, Analog and digital clocks">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClock/SwitchDigitalAnalogClock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClock/SwitchDigitalAnalogClock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseEffectDemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/myStory/UseEffectDemo.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClock/AnalogClock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClock/AnalogClock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClock/DigitalClock.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/DigitalClock/DigitalClock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DigitalClock/SwitchDigitalAnalogClock.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/myStory/DigitalClock.stories.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/DigitalClock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Clock" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,6 +63,7 @@
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledTurnOnOff" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\Clock" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories\assets\myStory" />
     </key>
@@ -119,7 +120,7 @@
       <workItem from="1627279884462" duration="132000" />
       <workItem from="1627292426492" duration="2900000" />
       <workItem from="1627296372260" duration="40000" />
-      <workItem from="1627371851668" duration="15244000" />
+      <workItem from="1627371851668" duration="16967000" />
     </task>
     <task id="LOCAL-00001" summary="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx">
       <created>1622196535920</created>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627294950899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SetInterval, Analog and digital clocks">
+      <created>1627401219674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627401219674</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +181,7 @@
     <MESSAGE value="need fix problem for UseState for Stories for tests Input.stories.tsx" />
     <MESSAGE value="need fix problem Accordion.tsx and Accordion.stories.tsx for storybook" />
     <MESSAGE value="UseEffectDemo.stories.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="UseEffectDemo.stories.tsx" />
+    <MESSAGE value="SetInterval, Analog and digital clocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="SetInterval, Analog and digital clocks" />
   </component>
 </project>
