@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="need fix problem Accordion.tsx and Accordion.stories.tsx for storybook">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseEffectDemo.stories.tsx" afterDir="false" />
+    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="UseEffectDemo.stories.tsx">
+      <change afterPath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AnalogClock/AnalogClock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Asets/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/DigitalClock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DigitalClock/SwitchDigitalAnalogClock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/myStory/DigitalClock.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseEffectDemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/myStory/UseEffectDemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -29,9 +36,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1rk9KrPDvSzQpMoxGarYFdbAb1e" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,18 +49,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/DigitalClock" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\DigitalClock" />
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\AnalogClock" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledRating" />
       <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledTurnOnOff" />
-      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\UncontrolledAccordion" />
-      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\components\Accordion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories" />
+      <recent name="E:\Dropbox\progect\progect_incubator\lessons_dimych\lessons\src\stories\assets\myStory" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +117,9 @@
       <workItem from="1622529896443" duration="35000" />
       <workItem from="1623254946664" duration="4156000" />
       <workItem from="1627279884462" duration="132000" />
-      <workItem from="1627292426492" duration="2232000" />
+      <workItem from="1627292426492" duration="2900000" />
+      <workItem from="1627296372260" duration="40000" />
+      <workItem from="1627371851668" duration="15244000" />
     </task>
     <task id="LOCAL-00001" summary="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx">
       <created>1622196535920</created>
@@ -132,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623257518886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UseEffectDemo.stories.tsx">
+      <created>1627294950899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627294950899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +172,7 @@
     <MESSAGE value="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx" />
     <MESSAGE value="need fix problem for UseState for Stories for tests Input.stories.tsx" />
     <MESSAGE value="need fix problem Accordion.tsx and Accordion.stories.tsx for storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="need fix problem Accordion.tsx and Accordion.stories.tsx for storybook" />
+    <MESSAGE value="UseEffectDemo.stories.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="UseEffectDemo.stories.tsx" />
   </component>
 </project>
