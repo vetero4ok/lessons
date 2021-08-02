@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="UseMemo.stories.tsx helper for React.Memo">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseCallback.stories.tsx" afterDir="false" />
+    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="useMemo vs UseCallback">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseState.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +119,7 @@
       <workItem from="1627371851668" duration="19352000" />
       <workItem from="1627672122598" duration="4299000" />
       <workItem from="1627752962076" duration="65000" />
-      <workItem from="1627922092445" duration="5067000" />
+      <workItem from="1627922092445" duration="6614000" />
     </task>
     <task id="LOCAL-00001" summary="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx">
       <created>1622196535920</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627676990054</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="useMemo vs UseCallback">
+      <created>1627929220568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627929220568</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +204,7 @@
     <MESSAGE value="SetInterval, Analog and digital clocks" />
     <MESSAGE value="UI Storybook for SwitchDigitalAnalogClock.tsx (true false)" />
     <MESSAGE value="UseMemo.stories.tsx helper for React.Memo" />
-    <option name="LAST_COMMIT_MESSAGE" value="UseMemo.stories.tsx helper for React.Memo" />
+    <MESSAGE value="useMemo vs UseCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="useMemo vs UseCallback" />
   </component>
 </project>
