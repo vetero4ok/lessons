@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="UI Storybook for SwitchDigitalAnalogClock.tsx (true false)">
-      <change afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
+    <list default="true" id="52d391fd-1f91-4185-8aa3-5ea305fa3cd5" name="Default Changelist" comment="UseMemo.stories.tsx helper for React.Memo">
+      <change afterPath="$PROJECT_DIR$/src/stories/UseCallback.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1rk9KrPDvSzQpMoxGarYFdbAb1e" />
   <component name="ProjectLevelVcsManager">
@@ -114,7 +117,9 @@
       <workItem from="1627292426492" duration="2900000" />
       <workItem from="1627296372260" duration="40000" />
       <workItem from="1627371851668" duration="19352000" />
-      <workItem from="1627672122598" duration="3804000" />
+      <workItem from="1627672122598" duration="4299000" />
+      <workItem from="1627752962076" duration="65000" />
+      <workItem from="1627922092445" duration="5067000" />
     </task>
     <task id="LOCAL-00001" summary="Need more time for storybook&#10;Need fix bug to UncontorolledTurnOnOff.stories.tsx and UncontrolledRating.stories.tsx">
       <created>1622196535920</created>
@@ -158,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627403142046</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="UseMemo.stories.tsx helper for React.Memo">
+      <created>1627676990054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627676990054</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +196,7 @@
     <MESSAGE value="UseEffectDemo.stories.tsx" />
     <MESSAGE value="SetInterval, Analog and digital clocks" />
     <MESSAGE value="UI Storybook for SwitchDigitalAnalogClock.tsx (true false)" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Storybook for SwitchDigitalAnalogClock.tsx (true false)" />
+    <MESSAGE value="UseMemo.stories.tsx helper for React.Memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="UseMemo.stories.tsx helper for React.Memo" />
   </component>
 </project>
