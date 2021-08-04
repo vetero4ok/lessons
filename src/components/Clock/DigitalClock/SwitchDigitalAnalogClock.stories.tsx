@@ -13,22 +13,24 @@ export default {
      <SwitchDigitalAnalogClock {...args}/>;
 export const switchDigitalAnalogClock = Template.bind({});
 switchDigitalAnalogClock.args = {
-    viewDigitalMod:true
+    viewMode:true
 };
+
+
 /** Другий варіант запису*/
 
 
 export const DigitalClockExample = () => {
     return (
         <>
-            <DigitalClock/>
+            <DigitalClock date={new Date()}/>
         </>
     );
 }
 export const AnalogClockExample = () => {
     return (
         <>
-            <AnalogClock/>
+            <AnalogClock date={new Date()} />
         </>
     );
 }
